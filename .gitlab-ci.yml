@@ -1,0 +1,9 @@
+variables:
+    TUTOR_PLUGIN: minio-azure
+    TUTOR_IMAGES: minio
+    TUTOR_PYPI_PACKAGE: tutor-minio-azure
+    OPENEDX_RELEASE: juniper
+
+include:
+  - project: 'community/tutor-ci'
+    file: 'plugin-gitlab-ci.yml'
